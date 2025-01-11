@@ -8,7 +8,7 @@ const myInfo={
     isLoggenIn: false,
 
     greet: function(){
-        console.log(`Hello ${this.name.firstName} ${this.userName.lastName}`)
+        console.log(`Hello ${this.userName.firstName, this.userName.lastName}`)
     }
 }
 myInfo.greet();
